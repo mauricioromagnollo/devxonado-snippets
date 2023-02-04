@@ -1,0 +1,26 @@
+{
+  "Test Suite": {
+    "prefix": "desc",
+    "body": [
+        "it('$1', async () => {",
+        "  $2",
+        "})"
+    ]
+  },
+  "Test Case: it": {
+    "prefix": "it",
+    "body": [
+        "it('$1', async () => {",
+        "  $2",
+        "})"
+    ]
+  },
+  "Test Case: test": {
+    "prefix": "test",
+    "body": [
+        "test('$1', async () => {",
+        "  $2",
+        "})"
+    ]
+  }
+}

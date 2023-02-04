@@ -1,0 +1,36 @@
+{
+  "name": "vscode-snippets",
+  "displayName": "x0n4d0 Visual Studio Code snippets",
+  "description": "Visual Studio Code snippets by x0n4d0",
+  "publisher": "x0n4d0",
+  "version": "1.0.8",
+  "galleryBanner": {
+    "color": "#1b64b3",
+    "theme": "dark"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x0n4d0/vscode-snippets.git"
+  },
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "scripts": {
+    "test": "vsce package && code --install-extension"
+  },
+  "devDependencies": {
+    "vsce": "2.15.0"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript"
+      }
+    ]
+  }
+}
