@@ -3,8 +3,9 @@
     "prefix": "bash",
     "body": [
       "#!/bin/bash",
-      "chmod +x ${1:${TM_FILENAME_BASE}}.sh",
-      ""
+      "chmod +x ${TM_FILENAME_BASE}.sh",
+      "",
+      "$1"
     ],
     "description": "Create Shell Script Bash file"
   }
