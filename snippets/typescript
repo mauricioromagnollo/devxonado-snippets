@@ -1,12 +1,4 @@
 {
-  "Snippet: require": {
-		"prefix": "require",
-		"body": [
-			"const { $2 } = require('$1')"
-		],
-		"description": "Write import { } from ''"
-  },
-
   "Snippet: import": {
 		"prefix": "import",
 		"body": [

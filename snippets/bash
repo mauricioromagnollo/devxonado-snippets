@@ -1,0 +1,11 @@
+{
+  "Sinppet: New Bash File": {
+    "prefix": "bash",
+    "body": [
+      "#!/bin/bash",
+      "chmod +x ${1:${TM_FILENAME_BASE}}.sh",
+      ""
+    ],
+    "description": "Create Shell Script Bash file"
+  }
+}

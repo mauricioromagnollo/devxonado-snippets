@@ -1,0 +1,32 @@
+{
+  "Snippet: Create New Styled Components File": {
+    "prefix": "styled",
+    "body": [
+      "import styled from 'styled-components'",
+      "",
+      "export const ${1:Container} = styled.${2:div}`",
+      "  ${3}",
+      "`",
+      ""
+    ],
+    "description": "Create ReactJS Styled Components file"
+  },
+
+  "Snippet: Create New React Functional Component": {
+    "prefix": "rfc",
+    "body": [
+      "import React from 'react'",
+      "",
+      "type ${1:${TM_FILENAME_BASE}}Props {$3}",
+      "",
+      "export const ${1:${TM_FILENAME_BASE}}: React.FC = (props: ${1:${TM_FILENAME_BASE}}Props) => {",
+      "  return (",
+      "    <div>",
+      "      <h1>Hello</h1>",
+      "    </div>",
+      "  )",
+      "}"
+    ],
+    "description": "Create ReactJS Functional Component Typescript"
+  }	
+}
