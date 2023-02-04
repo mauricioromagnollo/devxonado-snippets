@@ -4,6 +4,7 @@
   "description": "Visual Studio Code snippets by x0n4d0",
   "publisher": "x0n4d0",
   "version": "1.0.8",
+  "icon": "./assets/icon.png",
   "galleryBanner": {
     "color": "#1b64b3",
     "theme": "dark"
