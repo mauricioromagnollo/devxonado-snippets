@@ -6,7 +6,7 @@
 
 <div align='center'>
 
-🌎 [Extension](https://marketplace.visualstudio.com/items?itemName=x0n4d0.vscode-snippets) | :octocat: [Github Repository](https://github.com/x0n4d0/vscode-snippets)
+🌎 [Extension](https://marketplace.visualstudio.com/items?itemName=x0n4d0.vscode-snippets) | 🏡 [Github Repository](https://github.com/x0n4d0/vscode-snippets)
 
 </div>
 
