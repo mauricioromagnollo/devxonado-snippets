@@ -4,11 +4,13 @@
 
 > My Visual Studio Code snippets.
 
-🌎 Links: [Extension](https://marketplace.visualstudio.com/items?itemName=x0n4d0.vscode-snippets) - [Github](https://github.com/x0n4d0/vscode-snippets)
+<div align='center'>
 
-## **⁉️ About The Project**
+🌎 [Extension](https://marketplace.visualstudio.com/items?itemName=x0n4d0.vscode-snippets) | :octocat: [Github Repository](https://github.com/x0n4d0/vscode-snippets)
 
-This project aims to provide a set of Snippets or shortcuts for code files. 
+</div>
+
+<br>
 
 ## **⚙️ Installation**
 
@@ -20,15 +22,35 @@ Or, you can use this command:
 ```bash
 ext install x0n4d0.vscode-snippets
 ```
+
+<br>
+
 ## **🔤 Supported Languages**
 
-  - TypeScript (.ts)
-  - TypeScript React (.tsx)
-  - Shell Script Bash (.sh)
+- JavaScript (.js)
+- TypeScript (.ts)
+- TypeScript React (.tsx)
+- Shell Script Bash (.sh)
+
+<br>
+
+## **🧪 Testing**
+
+- Press <kbd>`F5`</kbd> to open a new window with your extension loaded;
+- Create a new file with a file name suffix matching your language;
+- Verify that your snippets are proposed on IntelliSense;
+- You can relaunch the extension from the debug toolbar after making changes to the files listed above;
+- You can also reload (<kbd>`Ctrl+R`</kbd> or <kbd>`Cmd+R`</kbd> on Mac) the VS Code window with your extension to load your changes.
+
+OR,
+
+You can run `npm test` to generate package and install into your VSCode.
+
+<br>
 
 ## **📝 Snippets**
 
-Below is the list of all avaible Snippets. The **→** means the <kbd>TAB</kbd> key.
+Below is the list of all avaible Snippets. The **→** means: press <kbd>`TAB`</kbd> key.
 
 
 |                    Trigger | Content                                                                      |
@@ -41,6 +63,8 @@ Below is the list of all avaible Snippets. The **→** means the <kbd>TAB</kbd> 
 |           `tests →` | Create one test suite                      |
 |           `testc →` | Create one test case                      |
 
+<br>
+
 ## **🌱 Contributing**
 
 1. Fork this repository
@@ -52,9 +76,14 @@ Below is the list of all avaible Snippets. The **→** means the <kbd>TAB</kbd> 
 
 > Thanks to contribute! 🤝
 
-## **References**
+<br>
 
-- [https://code.visualstudio.com/docs/editor/userdefinedsnippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
+## **📚 References**
+
+- [Visual Studio Docs: User Defined Snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
+- [Visual Studio Api: Publishing Extensions](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
+
+<br>
 
 ## **📜 License**
 
