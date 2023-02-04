@@ -1,9 +1,9 @@
 {
   "name": "vscode-snippets",
-  "displayName": "x0n4d0 Visual Studio Code snippets",
+  "displayName": "Xonado Snippets",
   "description": "Visual Studio Code snippets by x0n4d0",
   "publisher": "x0n4d0",
-  "version": "1.0.10",
+  "version": "1.1.0",
   "icon": "icon.png",
   "galleryBanner": {
     "color": "#1b64b3",
@@ -29,8 +29,20 @@
   "contributes": {
     "snippets": [
       {
+        "language": "bash",
+        "path": "./snippets/bash"
+      },
+      {
         "language": "javascript",
         "path": "./snippets/javascript"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/typescript"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/typescriptreact"
       }
     ]
   }
