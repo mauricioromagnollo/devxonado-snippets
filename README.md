@@ -1,4 +1,4 @@
-![](./assets/banner.png)
+![](./.github/assets/banner.png)
 
 ![BADGE_VSCODE] ![BADGE_VERSION] ![BADGE_LAST_UPDATED] ![BADGE_INSTALLS] ![BADGE_LICENSE]
 
@@ -14,14 +14,15 @@
 
 ## **⚙️ Installation**
 
-- To install an extension you can run the **Command Pallet** using the shorcut <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>, type `Install Extensions` and finally give an <kbd>Enter</kbd>.
-- Search by `x0n4d0 snippets` and you will find the extension.
-
-Or, you can use this command:
+To install the extension, you can use this command:
 
 ```bash
 ext install x0n4d0.vscode-snippets
 ```
+
+Or, search for `Xonado Snippets` in the Visual Studio Code `Extensions` menu.
+
+![](./.github/assets/install-extension.png)
 
 <br>
 
@@ -56,7 +57,7 @@ Below is the list of all avaible Snippets. The **→** means: press <kbd>`TAB`</
 |                    Trigger | Content                                                                      |
 | -------------------------: | ----------------------------------------------------------------------------- |
 |                    `rfc →` | Create a functional component in React                                             |
-|           `styled-react →` | Create a stylization file with Styled Components                      |
+|           `styled →` | Create a stylization file with Styled Components                      |
 |           `bash →` | Initializes a bash file with import and execute permission                      |
 |           `impf →` | Write `import { } from '';`                      |
 |           `exclass →` | Create one class with export and constructor                      |
