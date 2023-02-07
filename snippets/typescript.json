@@ -1,0 +1,66 @@
+{
+  "Snippet: import": {
+    "prefix": "import",
+    "body": [
+      "import { $2 } from '$1'"
+    ],
+    "description": "Write import { } from '';"
+  },
+  "Snippet: New Class": {
+    "prefix": "class",
+    "body": [
+      "export class $1 {",
+      "  $2",
+      "  constructor() {}",
+      "}"
+    ],
+    "description": "Create one class with export and constructor"
+  },
+  "Snippet: Test Suite (it)": {
+    "prefix": "desc",
+    "body": [
+      "describe('$1', () => {",
+      " it('$2', async () => {",
+      "   $3",
+      " })",
+      "})"
+    ],
+    "description": "Create new test suite using it in test case"
+  },
+  "Snippet: Test Suite (test)": {
+    "prefix": "desc",
+    "body": [
+      "describe('$1', () => {",
+      " test('$2', async () => {",
+      "   $3",
+      " })",
+      "})"
+    ],
+    "description": "Create new test suite using test in test case"
+  },
+  "Snippet: Test Case (it)": {
+    "prefix": "test",
+    "body": [
+      "it('$1', async () => {",
+      "  $2",
+      "})"
+    ],
+    "description": "Create new test case using it"
+  },
+  "Snippet: Test Case: (test)": {
+    "prefix": "test",
+    "body": [
+      "test('$1', async () => {",
+      "  $2",
+      "})"
+    ],
+    "description": "Create new test case using test"
+  },
+  "Snippet: Test Case (todo)": {
+    "prefix": "todo",
+    "body": [
+      "test.todo('$1')"
+    ],
+    "description": "Create new test todo case using test"
+  }
+}

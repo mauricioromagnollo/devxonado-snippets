@@ -3,7 +3,7 @@
   "displayName": "Xonado Snippets",
   "description": "Visual Studio Code snippets by x0n4d0",
   "publisher": "x0n4d0",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "icon": "icon.png",
   "galleryBanner": {
     "color": "#1b64b3",
@@ -30,19 +30,19 @@
     "snippets": [
       {
         "language": "shellscript",
-        "path": "./snippets/bash"
+        "path": "./snippets/bash.json"
       },
       {
         "language": "javascript",
-        "path": "./snippets/javascript"
+        "path": "./snippets/javascript.json"
       },
       {
         "language": "typescript",
-        "path": "./snippets/typescript"
+        "path": "./snippets/typescript.json"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/typescriptreact"
+        "path": "./snippets/typescriptreact.json"
       }
     ]
   }

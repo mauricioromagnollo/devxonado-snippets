@@ -51,18 +51,31 @@ You can run `npm test` to generate package and install into your VSCode.
 
 ## **📝 Snippets**
 
-Below is the list of all avaible Snippets. The **→** means: press <kbd>`TAB`</kbd> key.
+Below is the list of all avaible Snippets. Press <kbd>`TAB`</kbd> key to trigger the snippet when you see the Snippet Display Name in your Visual Studio Code.
+
+### JavaScript and TypeScript
+
+| Trigger | Description | Snippet Display Name |
+|---:|:---:|:--|
+|`import →` | Create one import (using require or import) | `"Snippet: require"` or `"Snippet: import"` |
+|`desc →` | Create new test suite using (test or it in test case) |  `"Snippet: Test Suite (test)"` or `"Snippet: Test Suite (it)"` |
+|`test →` | Create one test case (using it or test)| `"Snippet: Test Case: (test)"` or `"Snippet: Test Case (it)"` |
+|`todo →` | Create one todo test case | `"Snippet: Test Case (todo)"` |
 
 
-|                    Trigger | Content                                                                      |
-| -------------------------: | ----------------------------------------------------------------------------- |
-|                    `rfc →` | Create a functional component in React                                             |
-|           `styled →` | Create a stylization file with Styled Components                      |
-|           `bash →` | Initializes a bash file with import and execute permission                      |
-|           `impf →` | Write `import { } from '';`                      |
-|           `exclass →` | Create one class with export and constructor                      |
-|           `tests →` | Create one test suite                      |
-|           `testc →` | Create one test case                      |
+### Bash
+
+| Trigger | Description | Snippet Display Name |
+|---:|:---:|:--|
+|`bash →` | Create one shell script bash file | `"Sinppet: New Bash File"` |
+
+### React (TypeScript)
+
+| Trigger | Description | Snippet Display Name |
+|---:|:---:|:--|
+|`rfc →` | Create one new functional component in React based in filename | `"Snippet: Create New React Functional Component"` |
+|`styled →` | Create ReactJS Styled Components file | `"Snippet: Create New Styled Components File"` |
+
 
 <br>
 
