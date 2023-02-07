@@ -3,7 +3,7 @@
   "displayName": "DevXonado Snippets",
   "description": "Visual Studio Code snippets by x0n4d0",
   "publisher": "mauricioromagnollo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "icon": "icon.png",
   "galleryBanner": {
     "color": "#1b64b3",
@@ -15,7 +15,7 @@
     "url": "git+https://github.com/x0n4d0/vscode-snippets.git"
   },
   "engines": {
-    "vscode": "^1.75.0"
+    "vscode": "^1.0.0"
   },
   "categories": [
     "Snippets"
