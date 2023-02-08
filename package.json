@@ -1,9 +1,9 @@
 {
   "name": "devxonado-snippets",
   "displayName": "Dev Xonado Snippets",
-  "description": "Visual Studio Code snippets by x0n4d0",
+  "description": "Visual Studio Code snippets by Dev Xonado",
   "publisher": "mauricioromagnollo",
-  "version": "1.1.2",
+  "version": "1.1.6",
   "icon": "icon.png",
   "galleryBanner": {
     "color": "#1b64b3",
@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/x0n4d0/vscode-snippets.git"
+    "url": "git+https://github.com/x0n4d0/devxonado-snippets.git"
   },
   "engines": {
     "vscode": "^1.0.0"

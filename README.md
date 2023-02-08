@@ -6,7 +6,7 @@
 
 <div align='center'>
 
-🌎 [Extension](https://marketplace.visualstudio.com/items?itemName=x0n4d0.vscode-snippets) | 🏡 [Github Repository](https://github.com/x0n4d0/vscode-snippets)
+🌎 [Extension](https://marketplace.visualstudio.com/items?itemName=mauricioromagnollo.devxonado-snippets) | 🏡 [Github Repository](https://github.com/x0n4d0/devxonado-snippets)
 
 </div>
 
@@ -17,10 +17,10 @@
 To install the extension, you can use this command:
 
 ```bash
-ext install x0n4d0.vscode-snippets
+ext install mauricioromagnollo.devxonado-snippets
 ```
 
-Or, search for `Xonado Snippets` in the Visual Studio Code `Extensions` menu.
+Or, search for `Dev Xonado Snippets` in the Visual Studio Code `Extensions` menu.
 
 ![](./.github/assets/install-extension.png)
 
@@ -57,24 +57,24 @@ Below is the list of all avaible Snippets. Press <kbd>`TAB`</kbd> key to trigger
 
 | Trigger | Description | Snippet Display Name |
 |---:|:---:|:--|
-|`import →` | Create one import (using require or import) | `"Snippet: require"` or `"Snippet: import"` |
-|`desc →` | Create new test suite using (test or it in test case) |  `"Snippet: Test Suite (test)"` or `"Snippet: Test Suite (it)"` |
-|`test →` | Create one test case (using it or test)| `"Snippet: Test Case: (test)"` or `"Snippet: Test Case (it)"` |
-|`todo →` | Create one todo test case | `"Snippet: Test Case (todo)"` |
+|`import` | Create one import (using require or import) | `"Snippet: require"` or `"Snippet: import"` |
+|`desc` | Create new test suite using (test or it in test case) |  `"Snippet: Test Suite (test)"` or `"Snippet: Test Suite (it)"` |
+|`test` | Create one test case (using it or test)| `"Snippet: Test Case: (test)"` or `"Snippet: Test Case (it)"` |
+|`todo` | Create one todo test case | `"Snippet: Test Case (todo)"` |
 
 
 ### Bash
 
 | Trigger | Description | Snippet Display Name |
 |---:|:---:|:--|
-|`bash →` | Create one shell script bash file | `"Sinppet: New Bash File"` |
+|`bash` | Create one shell script bash file | `"Sinppet: New Bash File"` |
 
 ### React (TypeScript)
 
 | Trigger | Description | Snippet Display Name |
 |---:|:---:|:--|
-|`rfc →` | Create one new functional component in React based in filename | `"Snippet: Create New React Functional Component"` |
-|`styled →` | Create ReactJS Styled Components file | `"Snippet: Create New Styled Components File"` |
+|`rfc` | Create one new functional component in React based in filename | `"Snippet: Create New React Functional Component"` |
+|`styled` | Create ReactJS Styled Components file | `"Snippet: Create New Styled Components File"` |
 
 
 <br>
@@ -106,9 +106,9 @@ Below is the list of all avaible Snippets. Press <kbd>`TAB`</kbd> key to trigger
 <!-- BADGES -->
 
 [BADGE_VSCODE]: https://img.shields.io/badge/Visual%20Studio%20Code-Snippets-blue
-[BADGE_VERSION]: https://img.shields.io/visual-studio-marketplace/v/x0n4d0.vscode-snippets
-[BADGE_LICENSE]: https://img.shields.io/github/license/x0n4d0/vscode-snippets
-[BADGE_STARS]: https://img.shields.io/visual-studio-marketplace/stars/x0n4d0.vscode-snippets
-[BADGE_LAST_UPDATED]: https://img.shields.io/visual-studio-marketplace/last-updated/x0n4d0.vscode-snippets
-[BADGE_INSTALLS]: https://img.shields.io/visual-studio-marketplace/i/x0n4d0.vscode-snippets
-[BADGE_RELEASE_DATE]: https://img.shields.io/visual-studio-marketplace/release-date/x0n4d0.vscode-snippets
+[BADGE_VERSION]: https://img.shields.io/visual-studio-marketplace/v/mauricioromagnollo.devxonado-snippets
+[BADGE_LICENSE]: https://img.shields.io/github/license/x0n4d0/devxonado-snippets
+[BADGE_STARS]: https://img.shields.io/visual-studio-marketplace/stars/mauricioromagnollo.devxonado-snippets
+[BADGE_LAST_UPDATED]: https://img.shields.io/visual-studio-marketplace/last-updated/mauricioromagnollo.devxonado-snippets
+[BADGE_INSTALLS]: https://img.shields.io/visual-studio-marketplace/i/mauricioromagnollo.devxonado-snippets
+[BADGE_RELEASE_DATE]: https://img.shields.io/visual-studio-marketplace/release-date/mauricioromagnollo.devxonado-snippets
