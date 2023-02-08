@@ -1,9 +1,9 @@
 {
-  "name": "visual-studio-code-snippets",
-  "displayName": "DevXonado Snippets",
+  "name": "devxonado-snippets",
+  "displayName": "Dev Xonado Snippets",
   "description": "Visual Studio Code snippets by x0n4d0",
   "publisher": "mauricioromagnollo",
-  "version": "1.0.1",
+  "version": "1.1.2",
   "icon": "icon.png",
   "galleryBanner": {
     "color": "#1b64b3",
